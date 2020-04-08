@@ -2,12 +2,15 @@
 
 ## Overview
 
-This is a variant of the C memcpy function named “bitcpy”. The function should behave the same as the memcpy function, except the third parameter specifies the number of bits (not bytes) to copy. Included is a test.c source file (containing a main() method which demonstrates usage).
+This is a variant of the C memcpy function named “bitcpy”. The function should behave the same as the memcpy function, except the third parameter specifies the number of bits (not bytes) to copy. Included is a test.c source file (containing a ```main()``` method which demonstrates usage).
 
 ### Building from command line:
 
-Compile all c files and specify 
+Compile all c files by specifying:
+
 ```gcc -o runme *.c```
+
+Run the compiled code to see output via stdout:
 
 ```./runme```
 
